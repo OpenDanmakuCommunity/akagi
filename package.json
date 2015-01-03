@@ -1,0 +1,24 @@
+{
+  "name": "akagi",
+  "version": "0.1.0",
+  "description": "Akagi API server for Danmaku as a Service",
+  "main": "akagi.js",
+  "scripts": {
+    "test": "node akagi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenDanmakuConsortium/akagi.git"
+  },
+  "keywords": [
+    "danmaku",
+    "api",
+    "server"
+  ],
+  "author": "Jim Chen <knh.jabbany@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenDanmakuConsortium/akagi/issues"
+  },
+  "homepage": "https://github.com/OpenDanmakuConsortium/akagi"
+}
