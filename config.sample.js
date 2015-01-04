@@ -1,0 +1,22 @@
+module.exports = {
+	"http":{
+		"port":8080,
+		"allowAll":false,
+		"compress":true,
+		"cors":{
+			'allow':'*'
+		}
+	},
+	"database":{
+		"type":"redis",
+		"host":"127.0.0.1",
+		"port":6739,
+		"db":1
+	},
+	"cache":{
+		"type":"none"
+	},
+	"websocket":{
+		"mode":"disallow"
+	}
+}
