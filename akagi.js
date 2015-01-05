@@ -46,6 +46,10 @@ app.use(function (req, res, next) {
 			var userToken = (new Buffer(authKeys[1], 'base64')).toString('utf8');
 			var fields = userToken.split(':');
 			var uid = fields[0], token = fields[1];
+			req.authUser = {
+				username: uid,
+				password: token
+			};
 			db.checkToken(uid, token, function(err, result, type){
 				if(err){
 					req.auth = { status: false, uid: null };
