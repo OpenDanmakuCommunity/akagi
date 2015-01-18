@@ -105,7 +105,7 @@ app.get('*',function(req, res) {
 app.delete('*',function(req, res) {
 	res.status(405, 'Method not allowed');
 	res.json({
-		'error': 'Cannot perform delete at resouce'
+		'error': 'Cannot perform delete at resoursce'
 	});
 });
 

@@ -13,4 +13,13 @@ in any project, you can simply include the following line:
     Akagi (https://github.com/OpenDanmakuConsortium/akagi) Licensed under the MIT license.
 
 ## Deployment 部署
-TBD
+部署时清确保你有安装
+
+- Node.js
+- Redis
+
+首先根据实际状况更改 `config.sample.js` 内的数据库和服务器参数并命名为 `config.js`。之后运行 `npm install`
+获取所有的Node模块，最后启动可以使用 `node akagi`
+
+## Documentation 文档
+有关API服务器开放的接口的文档请参考 `docs/` 目录
